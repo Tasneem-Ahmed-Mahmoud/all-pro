@@ -1,0 +1,201 @@
+.navtop{
+
+
+    font-size: 13px;
+}
+
+a{
+    text-decoration: none;
+}
+.hh-100{
+    height: 100% !important;
+}
+
+@media(max-width:992px){
+    .final_img{
+margin-top: 30px !important;
+    }
+}
+.grady{
+    font-size: 100px;
+    
+    color: #e5e5e5;
+    z-index: -1;
+    position: absolute;
+    left:0px;
+bottom:-24px;
+}
+.cars .card{
+    overflow: hidden;
+    transition: 1s all ease-in-out;
+}
+.cars .card:hover{
+transform: translateY(-10px);
+}
+
+.for_sale{
+    position: absolute;
+    left:10px;
+    top:10px;
+    padding: 5px 10px;
+background-color: #0000006e;
+color: white;
+transition: 1s all ease-in-out;
+}
+.cars .card:hover .for_sale{
+transform: rotate(360deg);
+}
+.price{
+    position: absolute;
+    bottom: 10px;
+    right:10px;
+    padding:10px;
+    transition: 1s all ease-in-out;
+}
+.cars .card:hover .price{
+    transform: rotate(360deg);
+    }
+    .btn-8 {
+width: 20px;
+    }
+
+    /*  */
+    .layer{
+        width: 0;
+        height: 100%;
+        background-color: rgba(13, 110, 253,.5);
+        top: 0;
+        left: 0;
+        transition: all 1s ease-in-out;
+    }
+
+    .uper:hover .layer{
+        width: 100%;
+    }
+    
+    .info {
+        bottom: 20px;
+      left: 20px;
+        z-index: 3333;
+    }
+   
+    .new {
+        position: absolute;
+        z-index: 20;
+        text-align: center;
+       
+        color: #fff;
+        background: rgba(0, 0, 0, 0.36);
+        box-shadow: 0px 0px 0px 1px rgb(255 255 255 / 20%);
+        border-radius: 3px;
+        font-weight: 500;
+        top: 20px;
+        right: 20px;
+        padding: 5px 15px;
+        text-transform: uppercase;
+        font-size: 11px;
+        letter-spacing: 1px;
+        transition: all ease-in-out 1s;
+    }
+    .uper:hover .new{
+        transform: rotate(360deg);
+    }
+    .info .pr{
+        font-size: 28px;
+        color: #ffc107;
+    }
+
+    /* footer */
+    .footer{
+        background-image: url(../img/img-7.jpg);
+        color: #cecece;
+        padding-bottom: 5rem;
+    }
+.color{
+    color: #cecece;  
+}
+    .footer .footer__icon i{
+        font-size: 16px;
+        text-align: center;
+       padding: 10px;
+        background: #1b1e83;
+        border-radius: 50px;
+    }
+
+    .footer ul{
+        list-style: none;
+    }
+
+    .final-car{
+        height: 10rem;
+    }
+
+    .footer .social-list span {
+        background: #1b1e83;
+        color: #fff!important;
+        padding: 20px;
+    }
+   
+    /* counters-1 */
+    .counters-1{
+        background-image: url(../img/img-5\ \(1\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 50vh;
+        margin-bottom:10rem ;
+    }
+    .counter-box-1{
+        text-align: center;
+        color: #fff;
+    }
+    .counter-box-1 i{
+        font-size: 3rem;
+    }
+
+    /* OUR FACILTIES */
+    .OUR_FACILTIES .icon{
+       height: 5rem;
+       width: 5rem;
+        border-radius: 50%;
+        border: 1px dotted #ffc107;
+      
+    }
+    .OUR_FACILTIES i{
+        font-size: 2rem;
+    }
+   .white_p{
+color: grey;
+}
+.white_a{
+    color: #ffc107;
+}
+    .OUR_FACILTIES__layer{
+      width: 100%;
+      height: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+       transition: all ease-in-out .5s;
+        background-color: rgba(255, 193, 7,.8);
+    }
+
+    .parent:hover .OUR_FACILTIES__layer{
+height: 100%;
+z-index: -1;
+top:0;
+    }
+    
+    .parent:hover .white_p{
+       color: #fff !important;
+            }
+            
+            .parent:hover .white_a{
+                color: #fff !important;
+                     }
+                     .parent:hover .white_h4{
+                        color: #fff !important;
+                             }
+                             .parent:hover .white_div {
+                               background-color: #fff !important;
+                                     }
